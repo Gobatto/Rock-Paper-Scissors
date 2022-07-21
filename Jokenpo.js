@@ -22,25 +22,25 @@ const getUserChoice = userInput => {
   const determineWinner = (userChoice, computerChoice)
     if (userChoice === computerChoice) {
       return 'The game is a tie!';
-    if (userChoice === 'rock') {
-      if (computerChoice === 'paper') {
-        return 'You lost!'
-      else
-        return 'You won!'
-      }
-    }
-    if  (userChoice === 'paper') {
-      if (computerChoice === 'scissors') {
-        return 'You lost!'
-      else
-        return 'You won!'
-      }
-    }
-    if  (userChoice === 'scissors') {
-      if (computerChoice === 'rock') {
-        return 'You lost!'
-      else
-        return 'You won!'
-      }
-    }
+        if (userChoice === 'rock') {
+            if (computerChoice === 'paper') {
+                return 'You lost!';
+            else
+                return 'You won!';
+            }
+            }
+            if  (userChoice === 'paper') {
+            if (computerChoice === 'scissors') {
+                return 'You lost!';
+            else
+                return 'You won!';
+            }
+            }
+            if  (userChoice === 'scissors') {
+            if (computerChoice === 'rock') {
+                return 'You lost!';
+            else
+                return 'You won!';
+            }
+        }
   }
